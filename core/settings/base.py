@@ -25,6 +25,8 @@ MY_APPS = [
     'apps.testapp',
 ]
 
+AUTH_USER_MODEL = 'testapp.CustomUser'
+
 DJANGO_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
